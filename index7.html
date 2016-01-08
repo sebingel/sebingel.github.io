@@ -1,0 +1,43 @@
+Theme returned an error.<pre>TypeError: Cannot read property '0' of undefined
+    at /home/ubuntu/theme-manager/themes/jsonresume-theme-futura/0.1.4/index.js:35:47
+    at Function.forEach (/home/ubuntu/theme-manager/themes/jsonresume-theme-futura/0.1.4/node_modules/lodash/dist/lodash.js:3298:15)
+    at Object.render (/home/ubuntu/theme-manager/themes/jsonresume-theme-futura/0.1.4/index.js:32:4)
+    at /home/ubuntu/theme-manager/lib/theme.js:23:43
+    at tryCatcher (/home/ubuntu/theme-manager/node_modules/bluebird/js/release/util.js:11:23)
+    at Promise._settlePromiseFromHandler (/home/ubuntu/theme-manager/node_modules/bluebird/js/release/promise.js:488:31)
+    at Promise._settlePromise (/home/ubuntu/theme-manager/node_modules/bluebird/js/release/promise.js:545:18)
+    at Promise._settlePromise0 (/home/ubuntu/theme-manager/node_modules/bluebird/js/release/promise.js:590:10)
+    at Promise._settlePromises (/home/ubuntu/theme-manager/node_modules/bluebird/js/release/promise.js:673:18)
+    at Async._drainQueue (/home/ubuntu/theme-manager/node_modules/bluebird/js/release/async.js:125:16)
+    at Async._drainQueues (/home/ubuntu/theme-manager/node_modules/bluebird/js/release/async.js:135:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/ubuntu/theme-manager/node_modules/bluebird/js/release/async.js:16:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)</pre><h3>Theme Info</h3><pre>{
+  "name": "jsonresume-theme-futura",
+  "version": "0.1.4",
+  "description": "Theme for JSON Resume based on Modern",
+  "author": "Mark Andrews",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markau/jsonresume-theme-futura"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "mustache": "^0.8.2"
+  }
+}
+</pre><p><strong>We just launched the official 0.0.0 version recently, please make sure you update before continuing.</strong></p><h3>Resume.json Validation Test</h3><pre>{
+    "errors": [
+        {
+            "code": "OBJECT_ADDITIONAL_PROPERTIES",
+            "message": "Additional properties not allowed",
+            "path": "#/",
+            "params": {
+                "properties": [
+                    "linkedInterests"
+                ]
+            }
+        }
+    ],
+    "warnings": []
+}</pre>
